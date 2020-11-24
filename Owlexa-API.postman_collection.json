@@ -1,0 +1,652 @@
+{
+	"info": {
+		"_postman_id": "9fa44e4b-f690-49ab-8577-481436a94f59",
+		"name": "Owlexa-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lintasarta",
+			"item": [
+				{
+					"name": "Get Lintasarta",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Lintasarta/Lintasarta",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Lintasarta",
+								"Lintasarta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Lintasarta By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Lintasarta/Lintasarta?id_lintasarta=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Lintasarta",
+								"Lintasarta"
+							],
+							"query": [
+								{
+									"key": "id_lintasarta",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Lintasarta",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "judul_lintasarta",
+									"value": "qwert",
+									"type": "text"
+								},
+								{
+									"key": "isi_lintasarta",
+									"value": "qwqe",
+									"type": "text"
+								},
+								{
+									"key": "hyperlink_lintasarta",
+									"value": "qwe",
+									"type": "text"
+								},
+								{
+									"key": "video_lintasarta",
+									"value": "qwe",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Lintasarta/Lintasarta",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Lintasarta",
+								"Lintasarta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Lintasarta",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id_lintasarta",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "judul_lintasarta",
+									"value": "qwert",
+									"type": "text"
+								},
+								{
+									"key": "hyperlink_lintasarta",
+									"value": "yuipo",
+									"type": "text"
+								},
+								{
+									"key": "video_lintasarta",
+									"value": "zxc",
+									"type": "text"
+								},
+								{
+									"key": "isi_lintasarta",
+									"value": "bnm",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Lintasarta/Lintasarta",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Lintasarta",
+								"Lintasarta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Lintasarta",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Lintasarta/Lintasarta?id_lintasarta=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Lintasarta",
+								"Lintasarta"
+							],
+							"query": [
+								{
+									"key": "id_lintasarta",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Business-Unit",
+			"item": [
+				{
+					"name": "Get Business Unit",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Business_Unit/Business_Unit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Business_Unit",
+								"Business_Unit"
+							],
+							"query": [
+								{
+									"key": "id_business_unit",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Business Unit By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Business_Unit/Business_Unit?id_business_unit=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Business_Unit",
+								"Business_Unit"
+							],
+							"query": [
+								{
+									"key": "id_business_unit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Business Unit",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "judul_business_unit",
+									"value": "test",
+									"type": "text"
+								},
+								{
+									"key": "isi_business_unit",
+									"value": "qwe",
+									"type": "text"
+								},
+								{
+									"key": "hyperlink_business_unit",
+									"value": "tyui",
+									"type": "text"
+								},
+								{
+									"key": "video_business_unit",
+									"value": "zxc",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Business_Unit/Business_Unit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Business_Unit",
+								"Business_Unit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Business Unit",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id_business_unit",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "judul_business_unit",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "isi_business_unit",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "hyperlink_business_unit",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "video_business_unit",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Business_Unit/Business_Unit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Business_Unit",
+								"Business_Unit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Business Unit",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Business_Unit/Business_Unit?id_business_unit=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Business_Unit",
+								"Business_Unit"
+							],
+							"query": [
+								{
+									"key": "id_business_unit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Struktur Organisasi",
+			"item": [
+				{
+					"name": "Get Struktur Organisasi",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Struktur_Organisasi/Struktur_Organisasi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Struktur_Organisasi",
+								"Struktur_Organisasi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Struktur Organisasi By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Struktur_Organisasi/Struktur_Organisasi?id_structure=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Struktur_Organisasi",
+								"Struktur_Organisasi"
+							],
+							"query": [
+								{
+									"key": "id_structure",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Struktur Organisasi",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nama_structure",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "jabatan_structure",
+									"value": "qwerty",
+									"type": "text"
+								},
+								{
+									"key": "files[]",
+									"type": "file",
+									"src": "/C:/Users/User/Pictures/Pink Neon/download.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Struktur_Organisasi/Struktur_Organisasi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Struktur_Organisasi",
+								"Struktur_Organisasi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Struktur Organisasi",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id_structure",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "nama_structure",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "jabatan_structure",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "files[]",
+									"type": "file",
+									"src": "/C:/Users/User/Pictures/Pink Neon/0102f5b6cb9c10e56652eecd11bd83c5.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Struktur_Organisasi/Struktur_Organisasi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Struktur_Organisasi",
+								"Struktur_Organisasi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Struktur Organisasi",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImZhZWE3Y2Q2YWFhYjM1YmIyYmE4MjE3ZTgyNWNkODE5I",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/owlexa-api/index.php/api/Struktur_Organisasi/Struktur_Organisasi?id_structure=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"owlexa-api",
+								"index.php",
+								"api",
+								"Struktur_Organisasi",
+								"Struktur_Organisasi"
+							],
+							"query": [
+								{
+									"key": "id_structure",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
